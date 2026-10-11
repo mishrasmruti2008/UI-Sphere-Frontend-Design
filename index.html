@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekno Krraft 2026 | GDG @ SOA, ITER Chapter</title>
+    <!-- Google Fonts & Lucide Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Header -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo-lockup">
+                <div class="logo-badge">
+                    <span style="color: #4285F4;">&lt;</span><span style="color: #EA4335;">G</span><span style="color: #FBBC04;">D</span><span style="color: #34A853;">G</span><span style="color: #4285F4;">&gt;</span>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">Tekno Krraft 2026</span>
+                    <span class="logo-subtitle">GDG @ SOA, ITER Chapter</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#tracks">Tracks & Workshops</a>
+                <a href="#speakers">Speakers</a>
+                <a href="#sponsors">Sponsors</a>
+                <a href="#faqs">FAQs</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="btn-primary open-modal-btn" data-track="General Registration">
+                    <i class="fa-solid fa-sparkles"></i> Register Now
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container hero-content">
+                <div class="info-pill">
+                    <span class="status-dot"></span>
+                    <span>3 Days of Technical Immersion</span>
+                    <span class="divider-line"></span>
+                    <i class="fa-regular fa-calendar"></i>
+                    <span>October 16-18, 2026</span>
+                </div>
+
+                <div class="eyebrow-tag">&lt; GOOGLE DEVELOPER GROUP /&gt;</div>
+
+                <h1 class="hero-title">
+                    Tekno Krraft <span class="highlight-year">2026</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    A 3-Day Celebration of Code, Cloud, AI & Innovation | Organized by <strong>GDG ITER Chapter</strong>
+                </p>
+
+                <!-- Countdown Timer -->
+                <div class="countdown-wrapper">
+                    <span class="countdown-heading">EVENT LAUNCH COUNTDOWN</span>
+                    <div class="countdown-grid">
+                        <div class="countdown-tile tile-blue">
+                            <span id="days" class="countdown-digit">04</span>
+                            <span class="countdown-label">DAYS</span>
+                        </div>
+                        <div class="countdown-tile tile-red">
+                            <span id="hours" class="countdown-digit">14</span>
+                            <span class="countdown-label">HOURS</span>
+                        </div>
+                        <div class="countdown-tile tile-yellow">
+                            <span id="minutes" class="countdown-digit">00</span>
+                            <span class="countdown-label">MINUTES</span>
+                        </div>
+                        <div class="countdown-tile tile-green">
+                            <span id="seconds" class="countdown-digit">23</span>
+                            <span class="countdown-label">SECONDS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Buttons -->
+                <div class="hero-cta-group">
+                    <button class="btn-primary open-modal-btn" data-track="General Registration">
+                        <i class="fa-solid fa-sparkles"></i> Register for Events
+                    </button>
+                    <a href="#schedule" class="btn-secondary">
+                        Explore Schedule <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Venue Line -->
+                <div class="venue-line">
+                    <i class="fa-solid fa-location-dot venue-pin"></i>
+                    <span>ITER Campus, Siksha 'O' Anusandhan (Deemed to be University), Bhubaneswar</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview & Stats Section -->
+        <section class="overview-section">
+            <div class="container">
+                <div class="section-header-center">
+                    <div class="pill-badge pill-green"><i class="fa-solid fa-layer-group"></i> DEVELOPER FEST OVERVIEW</div>
+                    <h2>Why Join Tekno Krraft 2026?</h2>
+                </div>
+
+                <!-- Stat Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <span class="stat-value text-blue">1,500+</span>
+                            <span class="stat-label">ATTENDEES EXPECTED</span>
+                        </div>
+                        <div class="stat-icon-tile tile-blue-bg"><i class="fa-solid fa-users"></i></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <span class="stat-value text-red">30+</span>
+                            <span class="stat-label">TECHNICAL SESSIONS</span>
+                        </div>
+                        <div class="stat-icon-tile tile-red-bg"><i class="fa-solid fa-code"></i></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <span class="stat-value text-yellow">2,50,000+</span>
+                            <span class="stat-label">PRIZE POOL</span>
+                        </div>
+                        <div class="stat-icon-tile tile-yellow-bg"><i class="fa-solid fa-trophy"></i></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-content">
+                            <span class="stat-value text-green">24 Hours</span>
+                            <span class="stat-label">HACK SPRINT HOURS</span>
+                        </div>
+                        <div class="stat-icon-tile tile-green-bg"><i class="fa-solid fa-bolt"></i></div>
+                    </div>
+                </div>
+
+                <!-- Benefit Cards Grid -->
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon-tile tile-blue-bg"><i class="fa-solid fa-terminal"></i></div>
+                        <h3>Hands-On Technical Bootcamps</h3>
+                        <p>Build real-world projects alongside Google Developer Experts (GDEs) and senior engineers across Gen AI, Cloud Run, Flutter, and DevOps.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon-tile tile-red-bg"><i class="fa-solid fa-microchip"></i></div>
+                        <h3>24-Hour AI/ML Hack Sprint</h3>
+                        <p>Collaborate in teams to prototype groundbreaking solutions addressing pressing challenges with Gemini models, Firebase, and Cloud infrastructure.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon-tile tile-green-bg"><i class="fa-solid fa-award"></i></div>
+                        <h3>Recognitions & Networking</h3>
+                        <p>Connect with leading technology hiring managers, gain verified GDG certificates, exclusive Google Developer swags, and cash prize pools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Schedule Section -->
+        <section id="schedule" class="schedule-section">
+            <div class="container">
+                <div class="section-header-center">
+                    <h2>Plan Your Fest Journey</h2>
+                    <p class="section-desc">Explore keynotes, hands-on workshops, competitive coding, and the 24-hour hack sprint.</p>
+                </div>
+
+                <!-- Day Tabs -->
+                <div class="day-tabs">
+                    <button class="day-tab active" data-day="1">
+                        <span class="day-title">Day 1</span>
+                        <span class="day-subtitle">Kickoff & Cloud/Web3</span>
+                    </button>
+                    <button class="day-tab" data-day="2">
+                        <span class="day-title">Day 2</span>
+                        <span class="day-subtitle">AI Hack & System Design</span>
+                    </button>
+                    <button class="day-tab" data-day="3">
+                        <span class="day-title">Day 3</span>
+                        <span class="day-subtitle">Code Finals & Awards</span>
+                    </button>
+                </div>
+
+                <!-- Filters & Search -->
+                <div class="schedule-toolbar">
+                    <div class="filter-group">
+                        <span class="filter-label"><i class="fa-solid fa-filter"></i> Filter:</span>
+                        <div class="filter-chips">
+                            <button class="filter-chip active" data-filter="all">All</button>
+                            <button class="filter-chip" data-filter="Keynote">Keynote</button>
+                            <button class="filter-chip" data-filter="Workshop">Workshop</button>
+                            <button class="filter-chip" data-filter="Hackathon">Hackathon</button>
+                            <button class="filter-chip" data-filter="Competition">Competition</button>
+                            <button class="filter-chip" data-filter="Talk">Talk</button>
+                            <button class="filter-chip" data-filter="Gaming/Fun">Gaming/Fun</button>
+                        </div>
+                    </div>
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="sessionSearch" placeholder="Search sessions or mentors...">
+                    </div>
+                </div>
+
+                <!-- Session Cards Container -->
+                <div id="sessionsContainer" class="sessions-list">
+                    <!-- Dynamically populated via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Tracks & Workshops Section -->
+        <section id="tracks" class="tracks-section">
+            <div class="container">
+                <div class="section-header-center">
+                    <div class="pill-badge pill-amber"><i class="fa-solid fa-layer-group"></i> CORE TECHNICAL TRACKS</div>
+                    <h2>Workshops & Specialization Tracks</h2>
+                    <p class="section-desc">Master high-demand Google Cloud, AI, Web, and Mobile skills through curated curriculum and expert-guided labs.</p>
+                </div>
+
+                <div class="tracks-grid">
+                    <!-- Track 1 -->
+                    <div class="track-card">
+                        <div class="track-card-header">
+                            <div class="track-icon-tile tile-blue-bg"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <span class="difficulty-badge badge-amber">Intermediate</span>
+                        </div>
+                        <h3>Generative AI & Machine Learning</h3>
+                        <p class="track-desc">Master LLMs, Gemini API, RAG architectures, and fine-tuning neural networks.</p>
+                        
+                        <div class="track-section-title">Prerequisites:</div>
+                        <div class="prereq-chips">
+                            <span class="prereq-chip"><i class="fa-solid fa-check"></i> Basic Python knowledge</span>
+                            <span class="prereq-chip"><i class="fa-solid fa-check"></i> Understanding of REST APIs</span>
+                        </div>
+
+                        <div class="track-section-title">Key Modules:</div>
+                        <ul class="modules-list">
+                            <li><i class="fa-solid fa-chevron-right"></i> Gemini API & Prompt Engineering</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> LangChain & Vector Databases</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Vertex AI Studio</li>
+                        </ul>
+
+                        <div class="track-card-footer">
+                            <a href="#" class="syllabus-link"><i class="fa-solid fa-book-open"></i> View Syllabus</a>
+                            <button class="btn-primary open-modal-btn" data-track="Generative AI & Machine Learning (Intermediate)">
+                                Register Track <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Track 2 -->
+                    <div class="track-card">
+                        <div class="track-card-header">
+                            <div class="track-icon-tile tile-green-bg"><i class="fa-solid fa-globe"></i></div>
+                            <span class="difficulty-badge badge-green">Beginner</span>
+                        </div>
+                        <h3>Full-Stack Web & Cloud Architecture</h3>
+                        <p class="track-desc">Build scalable web apps with React, Next.js App Router, and Google Cloud Run.</p>
+                        
+                        <div class="track-section-title">Prerequisites:</div>
+                        <div class="prereq-chips">
+                            <span class="prereq-chip"><i class="fa-solid fa-check"></i> HTML/CSS/JavaScript basics</span>
+                            <span class="prereq-chip"><i class="fa-solid fa-check"></i> Git fundamentals</span>
+                        </div>
+
+                        <div class="track-section-title">Key Modules:</div>
+                        <ul class="modules-list">
+                            <li><i class="fa-solid fa-chevron-right"></i> Next.js App Router & Server Actions</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Google Cloud Run & Cloud SQL</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> GraphQL & RESTful Microservices</li>
+                        </ul>
+
+                        <div class="track-card-footer">
+                            <a href="#" class="syllabus-link"><i class="fa-solid fa-book-open"></i> View Syllabus</a>
+                            <button class="btn-primary open-modal-btn" data-track="Full-Stack Web & Cloud Architecture (Beginner)">
+                                Register Track <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers Section -->
+        <section id="speakers" class="speakers-section">
+            <div class="container">
+                <div class="section-header-center">
+                    <div class="pill-badge pill-red">KEYNOTE SPEAKERS & MENTORS</div>
+                    <h2>Learn from Industry Leaders</h2>
+                    <p class="section-desc">Distinguished Google Developer Experts (GDEs), cloud architects, and tech leads sharing insights.</p>
+                </div>
+
+                <div class="speakers-grid">
+                    <!-- Speaker 1 -->
+                    <div class="speaker-card">
+                        <div class="speaker-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400" alt="Dr. Ananya Patnaik">
+                            <span class="speaker-category-pill">GENERATIVE AI</span>
+                        </div>
+                        <div class="speaker-info">
+                            <h3>Dr. Ananya Patnaik</h3>
+                            <p class="speaker-role">Principal Cloud Architect</p>
+                            <p class="speaker-org">Google Developer Student Clubs</p>
+                            <div class="talk-preview">
+                                <span class="talk-title-yellow">Keynote: Next Generation Developer Architectures and Generative AI</span>
+                                <p class="speaker-bio">Ex-Google Senior Staff Engineer specializing in enterprise Kubernetes architectures and Generative AI.</p>
+                            </div>
+                        </div>
+                        <div class="speaker-footer">
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 2 -->
+                    <div class="speaker-card">
+                        <div class="speaker-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400" alt="Rohan Samal">
+                            <span class="speaker-category-pill">GENERATIVE AI</span>
+                        </div>
+                        <div class="speaker-info">
+                            <h3>Rohan Samal</h3>
+                            <p class="speaker-role">Senior AI Engineer</p>
+                            <p class="speaker-org">Google Cloud Lead</p>
+                            <div class="talk-preview">
+                                <span class="talk-title-yellow">Building Multimodal AI Agents with Gemini & LangChain</span>
+                                <p class="speaker-bio">Pioneer in RAG systems and LLM agent orchestration. Author of Building Production-Grade AI Agents.</p>
+                            </div>
+                        </div>
+                        <div class="speaker-footer">
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 3 -->
+                    <div class="speaker-card">
+                        <div class="speaker-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400" alt="Priyanka Mishra">
+                            <span class="speaker-category-pill">MOBILE DEV</span>
+                        </div>
+                        <div class="speaker-info">
+                            <h3>Priyanka Mishra</h3>
+                            <p class="speaker-role">Google Developer Expert (GDE)</p>
+                            <p class="speaker-org">Flutter & Mobile Lead</p>
+                            <div class="talk-preview">
+                                <span class="talk-title-yellow">Cross-Platform Masterclass with Flutter 3.24 & Firebase</span>
+                                <p class="speaker-bio">Global speaker and tech advocate building responsive mobile solutions with Flutter and Firebase.</p>
+                            </div>
+                        </div>
+                        <div class="speaker-footer">
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 4 -->
+                    <div class="speaker-card">
+                        <div class="speaker-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" alt="Amitabh Swain">
+                            <span class="speaker-category-pill">WEB & CLOUD</span>
+                        </div>
+                        <div class="speaker-info">
+                            <h3>Amitabh Swain</h3>
+                            <p class="speaker-role">Staff Engineer</p>
+                            <p class="speaker-org">Pyron Belgium</p>
+                            <div class="talk-preview">
+                                <span class="talk-title-yellow">System Design at Scale: Handling 10M+ Requests on GKE</span>
+                                <p class="speaker-bio">Distributed systems expert with over 12 years experience building fault-tolerant infrastructure.</p>
+                            </div>
+                        </div>
+                        <div class="speaker-footer">
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors & FAQs Section Placeholder to fulfill Nav -->
+        <section id="sponsors" class="info-section">
+            <div class="container text-center">
+                <h2>Our Proud Sponsors & Partners</h2>
+                <p class="section-desc">Backed by leading technology innovators and academic institutions.</p>
+                <div class="sponsors-grid">
+                    <div class="sponsor-logo">Google Developer Groups</div>
+                    <div class="sponsor-logo">Netlify</div>
+                    <div class="sponsor-logo">Siksha 'O' Anusandhan</div>
+                    <div class="sponsor-logo">Supabase</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faqs" class="info-section">
+            <div class="container text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-desc">Got questions? We've got answers.</p>
+                <div class="faqs-list" style="max-width: 800px; margin: 2rem auto; text-align: left;">
+                    <details class="faq-item"><summary>Who can attend Tekno Krraft 2026?</summary><p>All college and university students passionate about tech, coding, and AI are welcome to join for free!</p></details>
+                    <details class="faq-item"><summary>Is there any registration fee?</summary><p>No, admission is completely free with a confirmed digital pass.</p></details>
+                    <details class="faq-item"><summary>Do I need to bring my own laptop?</summary><p>Yes, for hands-on workshops and hackathons, bringing your personal laptop is required.</p></details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Tekno Krraft | GDG @ SOA, ITER Chapter. All rights reserved.</p>
+            <div class="netlify-badge">
+                <i class="fa-solid fa-bolt"></i> Powered by Netlify
+            </div>
+        </div>
+    </footer>
+
+    <!-- Registration Modal Overlay -->
+    <div id="registrationModal" class="modal-backdrop">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-logo-badge">TK</div>
+                <div class="modal-title-group">
+                    <h3>Event Registration</h3>
+                    <p>Tekno Krraft 2026 • GDG ITER Chapter</p>
+                </div>
+                <button id="closeModalBtn" class="modal-close-btn">&times;</button>
+            </div>
+
+            <form id="registrationForm" class="modal-form">
+                <div class="form-group full-width">
+                    <label>Primary Track of Interest</label>
+                    <select id="modalTrackSelect">
+                        <option value="General Registration">General Registration (All Access)</option>
+                        <option value="Generative AI & Machine Learning (Intermediate)">Generative AI & Machine Learning (Intermediate)</option>
+                        <option value="Full-Stack Web & Cloud Architecture (Beginner)">Full-Stack Web & Cloud Architecture (Beginner)</option>
+                        <option value="24-Hour AI/ML Hack Sprint">24-Hour AI/ML Hack Sprint</option>
+                    </select>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Full Name *</label>
+                        <input type="text" placeholder="e.g. Rahul Sharma" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address *</label>
+                        <input type="email" placeholder="rahul@iter.ac.in" required>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>College / Institution *</label>
+                        <input type="text" placeholder="e.g. ITER, SOA University" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Academic Year / Status</label>
+                        <select>
+                            <option>1st Year B.Tech</option>
+                            <option>2nd Year B.Tech</option>
+                            <option>3rd Year B.Tech</option>
+                            <option>4th Year B.Tech</option>
+                            <option>Postgraduate / Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Team Name (If Hackathon)</label>
+                        <input type="text" placeholder="e.g. ByteCraft">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number (WhatsApp)</label>
+                        <input type="tel" placeholder="+91 9876543210">
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" id="cancelModalBtn" class="btn-text">Cancel</button>
+                    <button type="submit" class="btn-primary">Confirm Free Pass <i class="fa-solid fa-sparkles"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
